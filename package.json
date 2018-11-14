@@ -1,0 +1,32 @@
+{
+  "name": "webtc2k19",
+  "version": "1.0.0",
+  "description": "web resmi tc",
+  "main": "gulpfile.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "concat": "^1.0.3",
+    "gulp-html-partial": "^1.0.1",
+    "gulp-install": "^1.1.0"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-livereload": "^4.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giabr/webtc2k19.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/giabr/webtc2k19/issues"
+  },
+  "homepage": "https://github.com/giabr/webtc2k19#readme"
+}
