@@ -1,3 +1,71 @@
+.p-about {
+    text-align: justify;
+    color: #434343;
+    font-size: 20px;
+}
+
+.judul-about {
+    font-family: nexa;
+    text-align: center;
+    /* color: #febf2c; */
+    font-size: 60px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    background: -webkit-linear-gradient(left, #F7EB23 50%, #F26B35);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.section-bg {
+    background: #3C3B3F;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #605C3C, #3C3B3F);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #605C3C, #3C3B3F);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    padding: 80px 0;
+}
+
+/* timeline Section
+--------------------------------*/
+#timeline {
+    padding: 80px 0;
+}
+
+#timeline h5,
+p {
+    color: white;
+}
+
+/* Fasilitas */
+#fasilitas {
+    padding: 80px 0;
+}
+
+#fasilitas h2 {
+    text-align: center;
+}
+
+/* Hadiah */
+#hadiah {
+    padding: 80px 0;
+}
+
+#hadiah .juara {
+    text-align: center;
+}
+
+#hadiah .juara h1 {
+    font-family: nexa;
+    background: -webkit-linear-gradient(left, #F7EB23 50%, #F26B35);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#hadiah .juara h4 {
+    color: white
+}
 /*
   Theme Name: Regna
   Theme URL: https://bootstrapmade.com/regna-bootstrap-onepage-template/
@@ -148,102 +216,6 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
 }
 
-/*--------------------------------------------------------------
-# Hero Section
---------------------------------------------------------------*/
-#hero {
-  width: 100%;
-  height: 80vh;
-  /* background: url(../img/poster.JPG) top center; */
-  background: black;
-  background-size: cover;
-  position: relative;
-}
-
-@media (min-width: 1024px) {
-  #hero {
-    background-attachment: fixed;
-  }
-}
-
-#hero:before {
-  content: "";
-  background: rgba(0, 0, 0, 0.6);
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-}
-
-#hero .hero-container {
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 10%;
-  right: 0;
-  display: flex;
-  justify-content: center;
-  /* align-items: center; */
-  flex-direction: column;
-  text-align: left;
-}
-
-#hero h1 {
-  margin: 0 0 10px 0;
-  font-size: 60px;
-  font-weight: 700;
-  line-height: 56px;
-  letter-spacing: 5px;
-  text-transform: uppercase;
-  color: #FEBF2C;
-  font-family: nexa !important;
-}
-
-@media (max-width: 768px) {
-  #hero h1 {
-    font-size: 28px;
-    line-height: 36px;
-  }
-}
-
-#hero h2 {
-  color: #F7EB23;
-  margin-bottom: 0px;
-  font-size: 40px;
-  font-family: nexa !important;
-  letter-spacing: 5px;
-  text-align: left !important;
-  text-transform: uppercase;
-}
-
-@media (max-width: 768px) {
-  #hero h2 {
-    font-size: 18px;
-    line-height: 24px;
-    margin-bottom: 30px;
-  }
-}
-
-#hero .btn-get-started {
-  font-family: "Poppins", sans-serif;
-  text-transform: uppercase;
-  font-weight: 500;
-  font-size: 16px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 8px 28px;
-  border-radius: 50px;
-  transition: 0.5s;
-  margin: 10px;
-  border: 2px solid #fff;
-  color: #fff;
-}
-
-#hero .btn-get-started:hover {
-  background: #2dc997;
-  border: 2px solid #2dc997;
-}
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -690,52 +662,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   line-height: 24px;
 }
 
-/* Call To Action Section
---------------------------------*/
-#call-to-action {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/call-to-action-bg.jpg) fixed center center;
-  background-size: cover;
-  padding: 80px 0;
-}
-
-#call-to-action .cta-title {
-  color: #fff;
-  font-size: 28px;
-  font-weight: 700;
-}
-
-#call-to-action .cta-text {
-  color: #fff;
-}
-
-@media (min-width: 769px) {
-  #call-to-action .cta-btn-container {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-  }
-}
-
-#call-to-action .cta-btn {
-  font-family: "Poppins", sans-serif;
-  text-transform: uppercase;
-  font-weight: 500;
-  font-size: 16px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 8px 30px;
-  border-radius: 50px;
-  transition: 0.5s;
-  margin: 10px;
-  border: 2px solid #fff;
-  color: #fff;
-}
-
-#call-to-action .cta-btn:hover {
-  background: #2dc997;
-  border: 2px solid #2dc997;
-}
-
 /* Portfolio Section
 --------------------------------*/
 #portfolio {
@@ -972,4 +898,189 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
   font-size: 13px;
   color: #ccc;
+}
+
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+#hero {
+    width: 100%;
+    height: 80vh;
+    background: #BA8B02;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #181818, #BA8B02);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #181818, #BA8B02);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    background-size: cover;
+    position: relative;
+}
+
+@media (min-width: 1024px) {
+    #hero {
+        background-attachment: fixed;
+    }
+}
+
+#hero:before {
+    content: "";
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#hero .hero-container {
+    position: absolute;
+    bottom: 0;
+    top: 40%;
+    left: 0;
+    right: 0;
+    display: block;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    text-align: left;
+}
+
+#hero h1 {
+    margin: 0 0 10px 0;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(left, #F7EB23 0%, #F26B35);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: nexa !important;
+}
+
+@media (max-width: 768px) {
+    #hero h1 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+}
+
+#hero h2 {
+    background: -webkit-linear-gradient(left, #F7EB23 0%, #F26B35);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 0px;
+    font-size: 40px;
+    font-family: nexa !important;
+    letter-spacing: 5px;
+    text-align: left !important;
+    text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+    #hero h2 {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 30px;
+    }
+}
+
+#hero .btn-teknis-daftar {
+    font-family: nexa;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 8px 28px;
+    border-radius: 50px;
+    transition: 0.5s;
+    border: 2px solid #F7EB23;
+    color: white;
+}
+
+#hero .btn-teknis-daftar:hover {
+    background: #FBB12F;
+    border: 2px solid #FBB12F;
+}
+.circle {
+    padding: 13px 20px;
+    border-radius: 50%;
+    background-color: #F7EB23;
+    color: black;
+    max-height: 50px;
+    z-index: 2;
+}
+
+.how-it-works.row .col-2 {
+    align-self: stretch;
+}
+
+.how-it-works.row .col-2::after {
+    content: "";
+    position: absolute;
+    border-left: 3px solid #F7EB23;
+    z-index: 1;
+}
+
+.how-it-works.row .col-2.bottom::after {
+    height: 50%;
+    left: 50%;
+    top: 50%;
+}
+
+.how-it-works.row .col-2.full::after {
+    height: 100%;
+    left: calc(50% - 3px);
+}
+
+.how-it-works.row .col-2.top::after {
+    height: 50%;
+    left: 50%;
+    top: 0;
+}
+
+
+.timeline div {
+    padding: 0;
+    height: 40px;
+}
+
+.timeline hr {
+    border-top: 3px solid #F7EB23;
+    margin: 0;
+    top: 17px;
+    position: relative;
+}
+
+.timeline .col-2 {
+    display: flex;
+    overflow: hidden;
+}
+
+.timeline .corner {
+    border: 3px solid #F7EB23;
+    width: 100%;
+    position: relative;
+    border-radius: 15px;
+}
+
+.timeline .top-right {
+    left: 50%;
+    top: -50%;
+}
+
+.timeline .left-bottom {
+    left: -50%;
+    top: calc(50% - 3px);
+}
+
+.timeline .top-left {
+    left: -50%;
+    top: -50%;
+}
+
+.timeline .right-bottom {
+    left: 50%;
+    top: calc(50% - 3px);
 }

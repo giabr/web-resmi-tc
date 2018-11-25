@@ -1,0 +1,68 @@
+.p-about {
+    text-align: justify;
+    color: #434343;
+    font-size: 20px;
+}
+
+.judul-about {
+    font-family: nexa;
+    text-align: center;
+    /* color: #febf2c; */
+    font-size: 60px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    background: -webkit-linear-gradient(left, #F7EB23 50%, #F26B35);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.section-bg {
+    background: #3C3B3F;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #605C3C, #3C3B3F);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #605C3C, #3C3B3F);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    padding: 80px 0;
+}
+
+/* timeline Section
+--------------------------------*/
+#timeline {
+    padding: 80px 0;
+}
+
+#timeline h5,
+p {
+    color: white;
+}
+
+/* Fasilitas */
+#fasilitas {
+    padding: 80px 0;
+}
+
+#fasilitas h2 {
+    text-align: center;
+}
+
+/* Hadiah */
+#hadiah {
+    padding: 80px 0;
+}
+
+#hadiah .juara {
+    text-align: center;
+}
+
+#hadiah .juara h1 {
+    font-family: nexa;
+    background: -webkit-linear-gradient(left, #F7EB23 50%, #F26B35);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#hadiah .juara h4 {
+    color: white
+}
