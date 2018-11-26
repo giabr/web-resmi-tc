@@ -41,7 +41,7 @@
 
 @media (max-width: 768px) {
     .p-about {
-        font-size: 12px;
+        font-size: 16px;
     }
 }
 
@@ -56,7 +56,7 @@
 
 @media (max-width: 768px) {
     .judul-about {
-        font-size: 30px;
+        font-size: 40px;
     }
 }
 
@@ -98,19 +98,19 @@
 }
 
 #timeline .acara{
-    font-size: 24px !important;
+    font-size: 30px !important;
     font-weight: bold;
 }
 #timeline .tanggal{
-    font-size: 16px !important;
+    font-size: 20px !important;
 }
 @media (max-width: 768px) {
     #timeline .acara{
-        font-size: 16px !important;
+        font-size: 20px !important;
         margin-bottom: 0;
     }
     #timeline .tanggal{
-        font-size: 12px !important;
+        font-size: 16px !important;
     }
 }
 
@@ -130,7 +130,7 @@ p {
 
 @media (max-width: 768px) {
     #fasilitas h2 {
-        font-size: 12px;
+        font-size: 20px;
     }
 }
 
@@ -145,16 +145,57 @@ p {
 
 #hadiah .juara h1 {
     font-family: nexa;
+    font-size: 60px;
 }
 
 @media (max-width: 768px) {
     #hadiah .juara h1 {
-        font-size: 30px;
+        font-size: 35px;
     }
 }
 
 #hadiah .juara h4 {
-    color: white
+    color: white;
+    font-size: 40px;
+}
+
+@media (max-width: 768px) {
+    #hadiah .juara h4 {
+        font-size: 25px;
+    }
+}
+
+/* Regis 2 */
+#regis{
+    padding: 180px;
+    text-align: center;
+}
+
+#regis .btn-daftar {
+    font-family: nexa;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 40px;
+    letter-spacing: 1px;
+    padding:  13px 25px;
+    border-radius: 30px;
+    background-size: 200% auto;
+    background-image: linear-gradient(to left, #F7EB23 0%, #FBB12F 50%, #F26B35 100%);
+    margin: 0 25px;
+    box-shadow: 0 0.1em 0.5em#111;
+    color: white;
+    width: 100px !important;
+}
+
+@media (max-width: 768px) {
+    #regis .btn-daftar {
+        font-size: 30px;
+    }
+}
+
+#regis .btn-daftar:hover {
+    background-position: right center;
+    transition: 0.5s;
 }
 /*
   Theme Name: Regna
@@ -993,7 +1034,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 #hero {
     width: 100%;
-    height: 80vh;
+    height: 600px;
     background: #BA8B02;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #181818, #BA8B02);
@@ -1005,9 +1046,10 @@ body.mobile-nav-active #mobile-nav-toggle {
     position: relative;
 }
 
-@media (min-width: 1024px) {
+@media (max-width: 768px) {
     #hero {
         background-attachment: fixed;
+        height: 400px !important;
     }
 }
 
@@ -1033,10 +1075,15 @@ body.mobile-nav-active #mobile-nav-toggle {
     flex-direction: column;
     text-align: left;
 }
+@media (max-width: 768px) {
+    #hero .hero-container {
+        top: 40%;
+    }
+}
 
 #hero h1 {
     margin: 0 0 10px 0;
-    font-size: 60px;
+    font-size: 80px;
     font-weight: 700;
     /* line-height: 56px; */
     letter-spacing: 5px;
@@ -1046,13 +1093,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (max-width: 768px) {
     #hero h1 {
-        font-size: 35px;
+        font-size: 40px;
     }
 }
 
 #hero h2 {
     margin-bottom: 0px;
-    font-size: 40px;
+    font-size: 60px;
     font-family: nexa !important;
     letter-spacing: 5px;
     text-align: left !important;
@@ -1061,7 +1108,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (max-width: 768px) {
     #hero h2 {
-        font-size: 25px;
+        font-size: 30px;
     }
 }
 
@@ -1069,13 +1116,14 @@ body.mobile-nav-active #mobile-nav-toggle {
     font-family: nexa;
     text-transform: uppercase;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 22px;
     letter-spacing: 1px;
     padding: 8px 28px;
     border-radius: 50px;
     transition: 0.5s;
     border: 2px solid #F7EB23;
     color: white;
+    margin-right: 20px;
 }
 
 @media (max-width: 768px) {
@@ -1096,6 +1144,11 @@ body.mobile-nav-active #mobile-nav-toggle {
     color: black;
     max-height: 50px;
     z-index: 2;
+}
+@media (max-width: 768px) {
+    .circle {
+        padding: 7px 10px;
+    }
 }
 
 .how-it-works.row .col-2 {
@@ -1169,18 +1222,4 @@ body.mobile-nav-active #mobile-nav-toggle {
 .timeline .right-bottom {
     left: 50%;
     top: calc(50% - 3px);
-}
-.timeline .acara{
-    font-size: 12px !important;
-}
-.timeline .tanggal{
-    font-size: 12px !important;
-}
-@media (max-width: 768px) {
-    .timeline .acara{
-        font-size: 12px !important;
-    }
-    .timeline .tanggal{
-        font-size: 12px !important;
-    }
 }

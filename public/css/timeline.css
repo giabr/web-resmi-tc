@@ -6,6 +6,11 @@
     max-height: 50px;
     z-index: 2;
 }
+@media (max-width: 768px) {
+    .circle {
+        padding: 7px 10px;
+    }
+}
 
 .how-it-works.row .col-2 {
     align-self: stretch;
@@ -78,18 +83,4 @@
 .timeline .right-bottom {
     left: 50%;
     top: calc(50% - 3px);
-}
-.timeline .acara{
-    font-size: 12px !important;
-}
-.timeline .tanggal{
-    font-size: 12px !important;
-}
-@media (max-width: 768px) {
-    .timeline .acara{
-        font-size: 12px !important;
-    }
-    .timeline .tanggal{
-        font-size: 12px !important;
-    }
 }

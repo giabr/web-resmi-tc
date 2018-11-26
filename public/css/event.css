@@ -6,7 +6,7 @@
 
 @media (max-width: 768px) {
     .p-about {
-        font-size: 12px;
+        font-size: 16px;
     }
 }
 
@@ -21,7 +21,7 @@
 
 @media (max-width: 768px) {
     .judul-about {
-        font-size: 30px;
+        font-size: 40px;
     }
 }
 
@@ -63,19 +63,19 @@
 }
 
 #timeline .acara{
-    font-size: 24px !important;
+    font-size: 30px !important;
     font-weight: bold;
 }
 #timeline .tanggal{
-    font-size: 16px !important;
+    font-size: 20px !important;
 }
 @media (max-width: 768px) {
     #timeline .acara{
-        font-size: 16px !important;
+        font-size: 20px !important;
         margin-bottom: 0;
     }
     #timeline .tanggal{
-        font-size: 12px !important;
+        font-size: 16px !important;
     }
 }
 
@@ -95,7 +95,7 @@ p {
 
 @media (max-width: 768px) {
     #fasilitas h2 {
-        font-size: 12px;
+        font-size: 20px;
     }
 }
 
@@ -110,14 +110,55 @@ p {
 
 #hadiah .juara h1 {
     font-family: nexa;
+    font-size: 60px;
 }
 
 @media (max-width: 768px) {
     #hadiah .juara h1 {
-        font-size: 30px;
+        font-size: 35px;
     }
 }
 
 #hadiah .juara h4 {
-    color: white
+    color: white;
+    font-size: 40px;
+}
+
+@media (max-width: 768px) {
+    #hadiah .juara h4 {
+        font-size: 25px;
+    }
+}
+
+/* Regis 2 */
+#regis{
+    padding: 180px;
+    text-align: center;
+}
+
+#regis .btn-daftar {
+    font-family: nexa;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 40px;
+    letter-spacing: 1px;
+    padding:  13px 25px;
+    border-radius: 30px;
+    background-size: 200% auto;
+    background-image: linear-gradient(to left, #F7EB23 0%, #FBB12F 50%, #F26B35 100%);
+    margin: 0 25px;
+    box-shadow: 0 0.1em 0.5em#111;
+    color: white;
+    width: 100px !important;
+}
+
+@media (max-width: 768px) {
+    #regis .btn-daftar {
+        font-size: 30px;
+    }
+}
+
+#regis .btn-daftar:hover {
+    background-position: right center;
+    transition: 0.5s;
 }
