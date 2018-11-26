@@ -1,6 +1,6 @@
 .circle {
     padding: 13px 20px;
-    border-radius: 50%;
+    border-radius: 100%;
     background-color: #F7EB23;
     color: black;
     max-height: 50px;
@@ -78,4 +78,18 @@
 .timeline .right-bottom {
     left: 50%;
     top: calc(50% - 3px);
+}
+.timeline .acara{
+    font-size: 12px !important;
+}
+.timeline .tanggal{
+    font-size: 12px !important;
+}
+@media (max-width: 768px) {
+    .timeline .acara{
+        font-size: 12px !important;
+    }
+    .timeline .tanggal{
+        font-size: 12px !important;
+    }
 }

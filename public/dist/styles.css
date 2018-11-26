@@ -1,7 +1,48 @@
+/* Daftar
+--------------------------------*/
+.daftar {
+    padding: 5% 15%;
+}
+
+.resp-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+    /* border: 5px solid #F7EB23; */
+    /* #FF7F00 */
+    /* border-radius: 30px; */
+    box-shadow: 0 0.5em 2em#111;
+    height: 151vw;
+}
+
+.resp-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+@media (max-width: 768px) {
+    .daftar {
+        padding: 2% 2%;
+    }
+
+    .resp-container {
+        height: 265vw;
+    }
+}
 .p-about {
     text-align: justify;
     color: #434343;
     font-size: 20px;
+}
+
+@media (max-width: 768px) {
+    .p-about {
+        font-size: 12px;
+    }
 }
 
 .judul-about {
@@ -11,7 +52,28 @@
     font-size: 60px;
     text-transform: uppercase;
     letter-spacing: 3px;
-    background: -webkit-linear-gradient(left, #F7EB23 50%, #F26B35);
+}
+
+@media (max-width: 768px) {
+    .judul-about {
+        font-size: 30px;
+    }
+}
+
+.yellow {
+    background: -webkit-linear-gradient(left, #F7EB23 30%, #F26B35);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.orange {
+    background: -webkit-linear-gradient(left, #F05B36, #F7EB23);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.yellow-orange {
+    background: -webkit-linear-gradient(left, #F26B35, #F7EB23);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -25,12 +87,31 @@
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
     padding: 80px 0;
+    margin: 0 10%;
+    box-shadow: 0 0.5em 2em#111;
 }
 
 /* timeline Section
 --------------------------------*/
 #timeline {
-    padding: 80px 0;
+    /* padding: 80px 0; */
+}
+
+#timeline .acara{
+    font-size: 24px !important;
+    font-weight: bold;
+}
+#timeline .tanggal{
+    font-size: 16px !important;
+}
+@media (max-width: 768px) {
+    #timeline .acara{
+        font-size: 16px !important;
+        margin-bottom: 0;
+    }
+    #timeline .tanggal{
+        font-size: 12px !important;
+    }
 }
 
 #timeline h5,
@@ -47,6 +128,12 @@ p {
     text-align: center;
 }
 
+@media (max-width: 768px) {
+    #fasilitas h2 {
+        font-size: 12px;
+    }
+}
+
 /* Hadiah */
 #hadiah {
     padding: 80px 0;
@@ -58,9 +145,12 @@ p {
 
 #hadiah .juara h1 {
     font-family: nexa;
-    background: -webkit-linear-gradient(left, #F7EB23 50%, #F26B35);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+}
+
+@media (max-width: 768px) {
+    #hadiah .juara h1 {
+        font-size: 30px;
+    }
 }
 
 #hadiah .juara h4 {
@@ -78,19 +168,21 @@ p {
 @font-face {
   font-family: 'nexa';
   src: url('../lib/font/nexa-webfont.woff2') format('woff2'),
-       url('../lib/font/nexa-webfont.woff') format('woff');
+    url('../lib/font/nexa-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 
 }
+
 @font-face {
   font-family: 'replay';
   src: url('../lib/font/replay-webfont.woff2') format('woff2'),
-       url('../lib/font/replay-webfont.woff') format('woff');
+    url('../lib/font/replay-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 
 }
+
 body {
   background: #fff;
   color: #666666;
@@ -101,7 +193,9 @@ a {
   color: #2dc997;
 }
 
-a:hover, a:active, a:focus {
+a:hover,
+a:active,
+a:focus {
   color: #2dca98;
   outline: none;
   text-decoration: none;
@@ -112,7 +206,12 @@ p {
   margin: 0 0 30px 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
@@ -191,7 +290,8 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
 }
 
-#header #logo h1 a, #header #logo h1 a:hover {
+#header #logo h1 a,
+#header #logo h1 a:hover {
   color: #F7EB23;
 }
 
@@ -203,7 +303,9 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 768px) {
   #header #logo h1 {
     font-size: 26px;
+    margin-left: 30% !important;
   }
+
   #header #logo img {
     max-height: 40px;
   }
@@ -221,7 +323,8 @@ h1, h2, h3, h4, h5, h6 {
 # Navigation Menu
 --------------------------------------------------------------*/
 /* Nav Menu Essentials */
-.nav-menu, .nav-menu * {
+.nav-menu,
+.nav-menu * {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -240,12 +343,12 @@ h1, h2, h3, h4, h5, h6 {
   white-space: nowrap;
 }
 
-.nav-menu > li {
+.nav-menu>li {
   float: left;
 }
 
-.nav-menu li:hover > ul,
-.nav-menu li.sfHover > ul {
+.nav-menu li:hover>ul,
+.nav-menu li.sfHover>ul {
   display: block;
 }
 
@@ -302,11 +405,11 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 2px;
 }
 
-.nav-menu > li {
+.nav-menu>li {
   margin-left: 10px;
 }
 
-.nav-menu > li > a:before {
+.nav-menu>li>a:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -321,7 +424,9 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.3s ease-in-out 0s;
 }
 
-.nav-menu a:hover:before, .nav-menu li:hover > a:before, .nav-menu .menu-active > a:before {
+.nav-menu a:hover:before,
+.nav-menu li:hover>a:before,
+.nav-menu .menu-active>a:before {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
@@ -329,7 +434,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-menu ul {
   margin: 4px 0 0 0;
-  border: 1px solid #e7e7e7;
+  /* border: 1px solid #e7e7e7; */
 }
 
 .nav-menu ul li {
@@ -342,7 +447,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-menu ul li a {
   padding: 10px;
-  color: #333;
+  color: black;
   transition: 0.3s;
   display: block;
   font-size: 13px;
@@ -361,10 +466,10 @@ h1, h2, h3, h4, h5, h6 {
 /* Mobile Nav Toggle */
 #mobile-nav-toggle {
   position: fixed;
-  right: 0;
+  left: 0;
   top: 0;
   z-index: 999;
-  margin: 20px 20px 0 0;
+  margin: 20px 20px 0 20px;
   border: 0;
   background: none;
   font-size: 24px;
@@ -392,7 +497,7 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 0;
   z-index: 998;
   background: rgba(52, 59, 64, 0.9);
-  left: -260px;
+  right: -260px;
   width: 260px;
   overflow-y: auto;
   transition: 0.4s;
@@ -425,7 +530,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #mobile-nav ul li li {
-  padding-left: 30px;
+  padding-right: 30px;
 }
 
 #mobile-nav ul .menu-has-children i {
@@ -438,11 +543,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #mobile-nav ul .menu-has-children i.fa-chevron-up {
-  color: #2dc997;
+  color: #FEBF2C;
 }
 
 #mobile-nav ul .menu-item-active {
-  color: #2dc997;
+  color: #FEBF2C;
 }
 
 #mobile-body-overly {
@@ -450,7 +555,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 100%;
   z-index: 997;
   top: 0;
-  left: 0;
+  right: 0;
   position: fixed;
   background: rgba(52, 59, 64, 0.9);
   display: none;
@@ -462,7 +567,7 @@ body.mobile-nav-active {
 }
 
 body.mobile-nav-active #mobile-nav {
-  left: 0;
+  right: 0;
 }
 
 body.mobile-nav-active #mobile-nav-toggle {
@@ -695,7 +800,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: all 0.3s ease-in-out;
 }
 
-#portfolio #portfolio-flters li:hover, #portfolio #portfolio-flters li.filter-active {
+#portfolio #portfolio-flters li:hover,
+#portfolio #portfolio-flters li.filter-active {
   background: #2dc997;
   color: #fff;
 }
@@ -751,26 +857,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #portfolio .portfolio-item:hover img {
   top: -30px;
-}
-
-/* Daftar
---------------------------------*/
-.daftar{
-  padding-top: 5%;
-}
-
-.resp-container {
-  position: relative;
-  overflow: hidden;
-  padding-top: 56.25%;
-}
-.resp-iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border: 0;
 }
 
 /* Contact Section
@@ -849,7 +935,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 15px;
 }
 
-#contact .form #sendmessage.show, #contact .form #errormessage.show, #contact .form .show {
+#contact .form #sendmessage.show,
+#contact .form #errormessage.show,
+#contact .form .show {
   display: block;
 }
 
@@ -861,7 +949,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 13px;
 }
 
-#contact .form input, #contact .form textarea {
+#contact .form input,
+#contact .form textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
@@ -899,7 +988,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 13px;
   color: #ccc;
 }
-
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -950,26 +1038,19 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin: 0 0 10px 0;
     font-size: 60px;
     font-weight: 700;
-    line-height: 56px;
+    /* line-height: 56px; */
     letter-spacing: 5px;
     text-transform: uppercase;
-    background: -webkit-linear-gradient(left, #F7EB23 0%, #F26B35);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
     font-family: nexa !important;
 }
 
 @media (max-width: 768px) {
     #hero h1 {
-        font-size: 28px;
-        line-height: 36px;
+        font-size: 35px;
     }
 }
 
 #hero h2 {
-    background: -webkit-linear-gradient(left, #F7EB23 0%, #F26B35);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
     margin-bottom: 0px;
     font-size: 40px;
     font-family: nexa !important;
@@ -980,9 +1061,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (max-width: 768px) {
     #hero h2 {
-        font-size: 18px;
-        line-height: 24px;
-        margin-bottom: 30px;
+        font-size: 25px;
     }
 }
 
@@ -999,13 +1078,20 @@ body.mobile-nav-active #mobile-nav-toggle {
     color: white;
 }
 
+@media (max-width: 768px) {
+    #hero .btn-teknis-daftar {
+        font-size: 12px;
+    }
+}
+
 #hero .btn-teknis-daftar:hover {
-    background: #FBB12F;
-    border: 2px solid #FBB12F;
+    background: #F7EB23;
+    border: 2px solid #F7EB23;
+    color: black;
 }
 .circle {
     padding: 13px 20px;
-    border-radius: 50%;
+    border-radius: 100%;
     background-color: #F7EB23;
     color: black;
     max-height: 50px;
@@ -1083,4 +1169,18 @@ body.mobile-nav-active #mobile-nav-toggle {
 .timeline .right-bottom {
     left: 50%;
     top: calc(50% - 3px);
+}
+.timeline .acara{
+    font-size: 12px !important;
+}
+.timeline .tanggal{
+    font-size: 12px !important;
+}
+@media (max-width: 768px) {
+    .timeline .acara{
+        font-size: 12px !important;
+    }
+    .timeline .tanggal{
+        font-size: 12px !important;
+    }
 }

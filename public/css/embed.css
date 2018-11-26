@@ -1,0 +1,35 @@
+/* Daftar
+--------------------------------*/
+.daftar {
+    padding: 5% 15%;
+}
+
+.resp-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+    /* border: 5px solid #F7EB23; */
+    /* #FF7F00 */
+    /* border-radius: 30px; */
+    box-shadow: 0 0.5em 2em#111;
+    height: 151vw;
+}
+
+.resp-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+@media (max-width: 768px) {
+    .daftar {
+        padding: 2% 2%;
+    }
+
+    .resp-container {
+        height: 265vw;
+    }
+}

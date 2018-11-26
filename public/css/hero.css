@@ -48,26 +48,19 @@
     margin: 0 0 10px 0;
     font-size: 60px;
     font-weight: 700;
-    line-height: 56px;
+    /* line-height: 56px; */
     letter-spacing: 5px;
     text-transform: uppercase;
-    background: -webkit-linear-gradient(left, #F7EB23 0%, #F26B35);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
     font-family: nexa !important;
 }
 
 @media (max-width: 768px) {
     #hero h1 {
-        font-size: 28px;
-        line-height: 36px;
+        font-size: 35px;
     }
 }
 
 #hero h2 {
-    background: -webkit-linear-gradient(left, #F7EB23 0%, #F26B35);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
     margin-bottom: 0px;
     font-size: 40px;
     font-family: nexa !important;
@@ -78,9 +71,7 @@
 
 @media (max-width: 768px) {
     #hero h2 {
-        font-size: 18px;
-        line-height: 24px;
-        margin-bottom: 30px;
+        font-size: 25px;
     }
 }
 
@@ -97,7 +88,14 @@
     color: white;
 }
 
+@media (max-width: 768px) {
+    #hero .btn-teknis-daftar {
+        font-size: 12px;
+    }
+}
+
 #hero .btn-teknis-daftar:hover {
-    background: #FBB12F;
-    border: 2px solid #FBB12F;
+    background: #F7EB23;
+    border: 2px solid #F7EB23;
+    color: black;
 }
