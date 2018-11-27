@@ -167,7 +167,7 @@ p {
 
 /* Regis 2 */
 #regis{
-    padding: 180px;
+    padding: 180px 0;
     text-align: center;
 }
 
@@ -1094,7 +1094,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (max-width: 768px) {
     #hero h1 {
-        font-size: 40px;
+        font-size: 30px;
     }
 }
 
@@ -1109,7 +1109,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (max-width: 768px) {
     #hero h2 {
-        font-size: 30px;
+        font-size: 20px;
     }
 }
 
