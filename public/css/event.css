@@ -1,7 +1,9 @@
 .p-about {
     text-align: justify;
-    color: #434343;
+    color: white;
     font-size: 20px;
+    font-family: nexa;
+    letter-spacing: 1px;
 }
 
 @media (max-width: 768px) {
@@ -17,6 +19,10 @@
     font-size: 60px;
     text-transform: uppercase;
     letter-spacing: 3px;
+    margin: 40px 0;
+    display: inline block;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 @media (max-width: 768px) {
@@ -41,19 +47,6 @@
     background: -webkit-linear-gradient(left, #F26B35 5%, #F7EB23);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-}
-
-.section-bg {
-    background: #3C3B3F;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #605C3C, #3C3B3F);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #605C3C, #3C3B3F);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background-size: cover;
-    padding: 80px 0;
-    margin: 0 10%;
-    box-shadow: 0 0.5em 2em#111;
 }
 
 /* timeline Section
@@ -91,6 +84,8 @@ p {
 
 #fasilitas h2 {
     text-align: center;
+    color: white;
+    font-size: 35px;
 }
 
 @media (max-width: 768px) {
@@ -108,6 +103,10 @@ p {
     text-align: center;
 }
 
+#hadiah .juara h4{
+    margin: 5px 0;
+}
+
 #hadiah .juara h1 {
     font-family: nexa;
     font-size: 60px;
@@ -121,7 +120,7 @@ p {
 
 #hadiah .juara h4 {
     color: white;
-    font-size: 40px;
+    font-size: 35px;
 }
 
 @media (max-width: 768px) {
@@ -145,10 +144,10 @@ p {
     padding:  13px 25px;
     border-radius: 30px;
     background-size: 200% auto;
-    background-image: linear-gradient(to left, #F7EB23 0%, #FBB12F 50%, #F26B35 100%);
+    background-image: linear-gradient(to left, #F26B35 0%, #FBB12F 50%, #F7EB23 100%);
     margin: 0 25px;
-    box-shadow: 0 0.1em 0.5em#111;
-    color: white;
+    box-shadow: 0 0.1em 0.5em rgb(43, 41, 41);
+    color: black;
     width: 100px !important;
 }
 
@@ -161,4 +160,5 @@ p {
 #regis .btn-daftar:hover {
     background-position: right center;
     transition: 0.5s;
+    color: white;
 }

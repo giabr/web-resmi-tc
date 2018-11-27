@@ -35,8 +35,10 @@
 }
 .p-about {
     text-align: justify;
-    color: #434343;
+    color: white;
     font-size: 20px;
+    font-family: nexa;
+    letter-spacing: 1px;
 }
 
 @media (max-width: 768px) {
@@ -52,6 +54,10 @@
     font-size: 60px;
     text-transform: uppercase;
     letter-spacing: 3px;
+    margin: 40px 0;
+    display: inline block;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 @media (max-width: 768px) {
@@ -76,19 +82,6 @@
     background: -webkit-linear-gradient(left, #F26B35 5%, #F7EB23);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-}
-
-.section-bg {
-    background: #3C3B3F;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #605C3C, #3C3B3F);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #605C3C, #3C3B3F);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background-size: cover;
-    padding: 80px 0;
-    margin: 0 10%;
-    box-shadow: 0 0.5em 2em#111;
 }
 
 /* timeline Section
@@ -126,6 +119,8 @@ p {
 
 #fasilitas h2 {
     text-align: center;
+    color: white;
+    font-size: 35px;
 }
 
 @media (max-width: 768px) {
@@ -143,6 +138,10 @@ p {
     text-align: center;
 }
 
+#hadiah .juara h4{
+    margin: 5px 0;
+}
+
 #hadiah .juara h1 {
     font-family: nexa;
     font-size: 60px;
@@ -156,7 +155,7 @@ p {
 
 #hadiah .juara h4 {
     color: white;
-    font-size: 40px;
+    font-size: 35px;
 }
 
 @media (max-width: 768px) {
@@ -180,10 +179,10 @@ p {
     padding:  13px 25px;
     border-radius: 30px;
     background-size: 200% auto;
-    background-image: linear-gradient(to left, #F7EB23 0%, #FBB12F 50%, #F26B35 100%);
+    background-image: linear-gradient(to left, #F26B35 0%, #FBB12F 50%, #F7EB23 100%);
     margin: 0 25px;
-    box-shadow: 0 0.1em 0.5em#111;
-    color: white;
+    box-shadow: 0 0.1em 0.5em rgb(43, 41, 41);
+    color: black;
     width: 100px !important;
 }
 
@@ -196,8 +195,98 @@ p {
 #regis .btn-daftar:hover {
     background-position: right center;
     transition: 0.5s;
+    color: white;
+}
+#gallery {
+    /* background: #f7f7f7; */
+    padding: 80px 0;
 }
 
+#gallery #gallery-wrapper {
+    padding-right: 15px;
+}
+
+#gallery #gallery-flters {
+    padding: 0;
+    margin: 0 0 45px 0;
+    list-style: none;
+    text-align: center;
+}
+
+#gallery #gallery-flters li {
+    cursor: pointer;
+    margin: 0 10px;
+    display: inline-block;
+    padding: 10px 22px;
+    font-size: 16px;
+    font-family: nexa;
+    line-height: 20px;
+    color: #666666;
+    border-radius: 4px;
+    text-transform: uppercase;
+    background: #fff;
+    margin-bottom: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+#gallery #gallery-flters li:hover,
+#gallery #gallery-flters li.filter-active {
+    background: #F26B35;
+    color: #fff;
+}
+
+#gallery .gallery-item {
+    position: relative;
+    height: 200px;
+    overflow: hidden !important;
+    margin-bottom: 15px;
+    transition: all 350ms ease;
+    transform: scale(1);
+}
+
+#gallery .gallery-item a {
+    display: block;
+    margin-right: 15px;
+}
+
+#gallery .gallery-item img {
+    position: relative;
+    top: 0;
+    transition: all 600ms cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+#gallery .gallery-item .details {
+    height: 50px;
+    background: #F26B35;
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    bottom: -50px;
+    transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+#gallery .gallery-item .details h4 {
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    padding: 8px 0 2px 8px;
+    margin: 0;
+}
+
+#gallery .gallery-item .details span {
+    display: block;
+    color: #fff;
+    font-size: 13px;
+    padding-left: 8px;
+}
+
+#gallery .gallery-item:hover .details {
+    bottom: 0;
+}
+
+#gallery .gallery-item:hover img {
+    top: -30px;
+}
 /*
   Theme Name: Regna
   Theme URL: https://bootstrapmade.com/regna-bootstrap-onepage-template/
@@ -226,19 +315,19 @@ p {
 }
 
 body {
-  background: #fff;
+  background: black;
   color: #666666;
   font-family: "Open Sans", sans-serif;
 }
 
 a {
-  color: #2dc997;
+  color: #F26B35;
 }
 
 a:hover,
 a:active,
 a:focus {
-  color: #2dca98;
+  color: #F26B35;
   outline: none;
   text-decoration: none;
 }
@@ -299,7 +388,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #2dc997;
+  background: #F26B35;
   color: #fff;
 }
 
@@ -639,8 +728,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* About Us Section
 --------------------------------*/
 #about {
-  background: #fff;
-  padding: 80px 0;
+  /* background: #fff; */
+  padding: 200px 0;
 }
 
 #about .about-container .background {
@@ -690,11 +779,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   flex-direction: column;
   text-align: center;
   border-radius: 50%;
-  border: 2px solid #2dc997;
+  border: 2px solid #F26B35;
 }
 
 #about .about-container .icon-box .icon i {
-  color: #2dc997;
+  color: #F26B35;
   font-size: 24px;
 }
 
@@ -714,300 +803,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-left: 80px;
   line-height: 24px;
   font-size: 14px;
-}
-
-/* Facts Section
---------------------------------*/
-#facts {
-  background: #f7f7f7;
-  padding: 80px 0 60px 0;
-}
-
-#facts .counters span {
-  font-size: 48px;
-  display: block;
-  color: #2dc997;
-}
-
-#facts .counters p {
-  padding: 0;
-  margin: 0 0 20px 0;
-  font-family: "Poppins", sans-serif;
-  font-size: 14px;
-}
-
-/* Services Section
---------------------------------*/
-#services {
-  background: #fff;
-  background-size: cover;
-  padding: 80px 0 60px 0;
-}
-
-#services .box {
-  padding: 50px 20px;
-  margin-bottom: 50px;
-  text-align: center;
-  border: 1px solid #e6e6e6;
-  height: 200px;
-  position: relative;
-  background: #fafafa;
-}
-
-#services .icon {
-  position: absolute;
-  top: -36px;
-  left: calc(50% - 36px);
-  transition: 0.2s;
-  border-radius: 50%;
-  border: 6px solid #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
-  width: 72px;
-  height: 72px;
-  background: #2dc997;
-}
-
-#services .icon a {
-  display: inline-block;
-}
-
-#services .icon i {
-  color: #fff;
-  font-size: 24px;
-}
-
-#services .box:hover .icon {
-  background: #fff;
-  border: 2px solid #2dc997;
-}
-
-#services .box:hover .icon i {
-  color: #2dc997;
-}
-
-#services .box:hover .icon a {
-  color: #2dc997;
-}
-
-#services .title {
-  font-weight: 700;
-  font-size: 18px;
-  margin-bottom: 15px;
-  text-transform: uppercase;
-}
-
-#services .title a {
-  color: #111;
-}
-
-#services .description {
-  font-size: 14px;
-  line-height: 24px;
-}
-
-/* Portfolio Section
---------------------------------*/
-#portfolio {
-  background: #f7f7f7;
-  padding: 80px 0;
-}
-
-#portfolio #portfolio-wrapper {
-  padding-right: 15px;
-}
-
-#portfolio #portfolio-flters {
-  padding: 0;
-  margin: 0 0 45px 0;
-  list-style: none;
-  text-align: center;
-}
-
-#portfolio #portfolio-flters li {
-  cursor: pointer;
-  margin: 0 10px;
-  display: inline-block;
-  padding: 10px 22px;
-  font-size: 12px;
-  line-height: 20px;
-  color: #666666;
-  border-radius: 4px;
-  text-transform: uppercase;
-  background: #fff;
-  margin-bottom: 5px;
-  transition: all 0.3s ease-in-out;
-}
-
-#portfolio #portfolio-flters li:hover,
-#portfolio #portfolio-flters li.filter-active {
-  background: #2dc997;
-  color: #fff;
-}
-
-#portfolio .portfolio-item {
-  position: relative;
-  height: 200px;
-  overflow: hidden !important;
-  margin-bottom: 15px;
-  transition: all 350ms ease;
-  transform: scale(1);
-}
-
-#portfolio .portfolio-item a {
-  display: block;
-  margin-right: 15px;
-}
-
-#portfolio .portfolio-item img {
-  position: relative;
-  top: 0;
-  transition: all 600ms cubic-bezier(0.645, 0.045, 0.355, 1);
-}
-
-#portfolio .portfolio-item .details {
-  height: 50px;
-  background: #2dc997;
-  position: absolute;
-  width: 100%;
-  height: 50px;
-  bottom: -50px;
-  transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
-}
-
-#portfolio .portfolio-item .details h4 {
-  font-size: 14px;
-  font-weight: 700;
-  color: #fff;
-  padding: 8px 0 2px 8px;
-  margin: 0;
-}
-
-#portfolio .portfolio-item .details span {
-  display: block;
-  color: #fff;
-  font-size: 13px;
-  padding-left: 8px;
-}
-
-#portfolio .portfolio-item:hover .details {
-  bottom: 0;
-}
-
-#portfolio .portfolio-item:hover img {
-  top: -30px;
-}
-
-/* Contact Section
---------------------------------*/
-#contact {
-  background: #f7f7f7;
-  padding: 80px 0 40px 0;
-}
-
-#contact #google-map {
-  height: 300px;
-  margin-bottom: 20px;
-}
-
-#contact .info {
-  color: #333333;
-}
-
-#contact .info i {
-  font-size: 32px;
-  color: #2dc997;
-  float: left;
-}
-
-#contact .info p {
-  padding: 0 0 10px 50px;
-  margin-bottom: 20px;
-  line-height: 22px;
-  font-size: 14px;
-}
-
-#contact .info .email p {
-  padding-top: 5px;
-}
-
-#contact .social-links {
-  padding-bottom: 20px;
-}
-
-#contact .social-links a {
-  font-size: 18px;
-  display: inline-block;
-  background: #333;
-  color: #fff;
-  line-height: 1;
-  padding: 8px 0;
-  border-radius: 50%;
-  text-align: center;
-  width: 36px;
-  height: 36px;
-  transition: 0.3s;
-}
-
-#contact .social-links a:hover {
-  background: #2dc997;
-  color: #fff;
-}
-
-#contact .form #sendmessage {
-  color: #2dc997;
-  border: 1px solid #2dc997;
-  display: none;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-  margin-bottom: 15px;
-}
-
-#contact .form #errormessage {
-  color: red;
-  display: none;
-  border: 1px solid red;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-  margin-bottom: 15px;
-}
-
-#contact .form #sendmessage.show,
-#contact .form #errormessage.show,
-#contact .form .show {
-  display: block;
-}
-
-#contact .form .validation {
-  color: red;
-  display: none;
-  margin: 0 0 20px;
-  font-weight: 400;
-  font-size: 13px;
-}
-
-#contact .form input,
-#contact .form textarea {
-  border-radius: 0;
-  box-shadow: none;
-  font-size: 14px;
-}
-
-#contact .form button[type="submit"] {
-  background: #2dc997;
-  border: 0;
-  padding: 10px 24px;
-  color: #fff;
-  transition: 0.4s;
-}
-
-#contact .form button[type="submit"]:hover {
-  background: #51d8ad;
 }
 
 /*--------------------------------------------------------------
@@ -1035,12 +830,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 #hero {
     width: 100%;
-    height: 600px;
+    height: 700px;
     background: #BA8B02;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #181818, #BA8B02);
+    background: -webkit-linear-gradient(to top, black, #BA8B02);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #181818, #BA8B02);
+    background: linear-gradient(to top, black, #BA8B02);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     background-size: cover;
@@ -1151,16 +946,11 @@ span {
 
 .circle {
     padding: 13px 20px;
-    border-radius: 100%;
-    background-color: #F7EB23;
-    color: black;
+    border-radius: 50%;
+    background-color: #F26B35;
+    color: #fff;
     max-height: 50px;
     z-index: 2;
-}
-@media (max-width: 768px) {
-    .circle {
-        padding: 7px 10px;
-    }
 }
 
 .how-it-works.row .col-2 {
@@ -1170,7 +960,7 @@ span {
 .how-it-works.row .col-2::after {
     content: "";
     position: absolute;
-    border-left: 3px solid #F7EB23;
+    border-left: 3px solid #F26B35;
     z-index: 1;
 }
 
@@ -1182,12 +972,22 @@ span {
 
 .how-it-works.row .col-2.full::after {
     height: 100%;
-    left: calc(50% - 3px);
+    left: calc(50%);
+}
+
+.how-it-works.row .col-2.full2::after {
+    height: 100%;
+    left: calc(48.4%);
 }
 
 .how-it-works.row .col-2.top::after {
     height: 50%;
     left: 50%;
+    top: 0;
+}
+.how-it-works.row .col-2.top2::after {
+    height: 50%;
+    left: 48.4%;
     top: 0;
 }
 
@@ -1198,7 +998,7 @@ span {
 }
 
 .timeline hr {
-    border-top: 3px solid #F7EB23;
+    border-top: 3px solid #F26B35;
     margin: 0;
     top: 17px;
     position: relative;
@@ -1210,7 +1010,7 @@ span {
 }
 
 .timeline .corner {
-    border: 3px solid #F7EB23;
+    border: 3px solid #F26B35;
     width: 100%;
     position: relative;
     border-radius: 15px;
@@ -1234,4 +1034,14 @@ span {
 .timeline .right-bottom {
     left: 50%;
     top: calc(50% - 3px);
+}
+#timeline h4,p{
+    font-family: nexa;
+    color: white !important;
+}
+#timeline h4{
+    font-size: 35px;
+}
+#timeline p{
+    font-size: 20px;
 }

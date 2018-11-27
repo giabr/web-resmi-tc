@@ -1,15 +1,10 @@
 .circle {
     padding: 13px 20px;
-    border-radius: 100%;
-    background-color: #F7EB23;
-    color: black;
+    border-radius: 50%;
+    background-color: #F26B35;
+    color: #fff;
     max-height: 50px;
     z-index: 2;
-}
-@media (max-width: 768px) {
-    .circle {
-        padding: 7px 10px;
-    }
 }
 
 .how-it-works.row .col-2 {
@@ -19,7 +14,7 @@
 .how-it-works.row .col-2::after {
     content: "";
     position: absolute;
-    border-left: 3px solid #F7EB23;
+    border-left: 3px solid #F26B35;
     z-index: 1;
 }
 
@@ -31,12 +26,22 @@
 
 .how-it-works.row .col-2.full::after {
     height: 100%;
-    left: calc(50% - 3px);
+    left: calc(50%);
+}
+
+.how-it-works.row .col-2.full2::after {
+    height: 100%;
+    left: calc(48.4%);
 }
 
 .how-it-works.row .col-2.top::after {
     height: 50%;
     left: 50%;
+    top: 0;
+}
+.how-it-works.row .col-2.top2::after {
+    height: 50%;
+    left: 48.4%;
     top: 0;
 }
 
@@ -47,7 +52,7 @@
 }
 
 .timeline hr {
-    border-top: 3px solid #F7EB23;
+    border-top: 3px solid #F26B35;
     margin: 0;
     top: 17px;
     position: relative;
@@ -59,7 +64,7 @@
 }
 
 .timeline .corner {
-    border: 3px solid #F7EB23;
+    border: 3px solid #F26B35;
     width: 100%;
     position: relative;
     border-radius: 15px;
@@ -83,4 +88,14 @@
 .timeline .right-bottom {
     left: 50%;
     top: calc(50% - 3px);
+}
+#timeline h4,p{
+    font-family: nexa;
+    color: white !important;
+}
+#timeline h4{
+    font-size: 35px;
+}
+#timeline p{
+    font-size: 20px;
 }
