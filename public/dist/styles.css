@@ -48,7 +48,7 @@
 .judul-about {
     font-family: nexa;
     text-align: center;
-    /* color: #febf2c; */
+    color: #febf2c;
     font-size: 60px;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -67,13 +67,13 @@
 }
 
 .orange {
-    background: -webkit-linear-gradient(left, #F05B36, #F7EB23);
+    background: -webkit-linear-gradient(left, #F05B36 30%, #F7EB23);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .yellow-orange {
-    background: -webkit-linear-gradient(left, #F26B35, #F7EB23);
+    background: -webkit-linear-gradient(left, #F26B35 5%, #F7EB23);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -121,7 +121,7 @@ p {
 
 /* Fasilitas */
 #fasilitas {
-    padding: 80px 0;
+    padding: 180px 0;
 }
 
 #fasilitas h2 {
@@ -197,6 +197,7 @@ p {
     background-position: right center;
     transition: 0.5s;
 }
+
 /*
   Theme Name: Regna
   Theme URL: https://bootstrapmade.com/regna-bootstrap-onepage-template/
@@ -1083,7 +1084,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #hero h1 {
     margin: 0 0 10px 0;
-    font-size: 80px;
+    font-size: 70px;
     font-weight: 700;
     /* line-height: 56px; */
     letter-spacing: 5px;
@@ -1099,7 +1100,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #hero h2 {
     margin-bottom: 0px;
-    font-size: 60px;
+    font-size: 50px;
     font-family: nexa !important;
     letter-spacing: 5px;
     text-align: left !important;
@@ -1116,7 +1117,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     font-family: nexa;
     text-transform: uppercase;
     font-weight: 500;
-    font-size: 22px;
+    font-size: 15px;
     letter-spacing: 1px;
     padding: 8px 28px;
     border-radius: 50px;
@@ -1137,6 +1138,17 @@ body.mobile-nav-active #mobile-nav-toggle {
     border: 2px solid #F7EB23;
     color: black;
 }
+
+span {
+    border-right: .05em solid white;
+    animation: caret 1s steps(1) infinite;
+  }
+  @keyframes caret {
+    50% {
+      border-color: transparent;
+    }
+  }
+
 .circle {
     padding: 13px 20px;
     border-radius: 100%;

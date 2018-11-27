@@ -52,7 +52,7 @@
 
 #hero h1 {
     margin: 0 0 10px 0;
-    font-size: 80px;
+    font-size: 70px;
     font-weight: 700;
     /* line-height: 56px; */
     letter-spacing: 5px;
@@ -68,7 +68,7 @@
 
 #hero h2 {
     margin-bottom: 0px;
-    font-size: 60px;
+    font-size: 50px;
     font-family: nexa !important;
     letter-spacing: 5px;
     text-align: left !important;
@@ -85,7 +85,7 @@
     font-family: nexa;
     text-transform: uppercase;
     font-weight: 500;
-    font-size: 22px;
+    font-size: 15px;
     letter-spacing: 1px;
     padding: 8px 28px;
     border-radius: 50px;
@@ -106,3 +106,13 @@
     border: 2px solid #F7EB23;
     color: black;
 }
+
+span {
+    border-right: .05em solid white;
+    animation: caret 1s steps(1) infinite;
+  }
+  @keyframes caret {
+    50% {
+      border-color: transparent;
+    }
+  }
