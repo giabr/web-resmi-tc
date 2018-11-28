@@ -139,22 +139,31 @@ h6 {
 
 #header #logo img {
   padding: 0;
-  margin: 0;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  height: 40px;
+}
+
+#nav-logo{
+  font-family: replay;
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
 }
 
 @media (max-width: 768px) {
-  #header #logo h1 {
-    font-size: 26px;
+  #header #logo #nav-logo {
+    font-size: 25px;
     margin-left: 30% !important;
   }
 
   #header #logo img {
-    max-height: 40px;
+    display: none;
   }
 }
 
 #header.header-fixed {
-  background: rgba(52, 59, 64, 0.9);
+  background: rgba(0, 0, 0, 0.9);
   padding: 20px 0;
   height: 72px;
   transition: all 0.5s;
