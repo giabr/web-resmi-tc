@@ -10,7 +10,8 @@
 
   <!-- Favicons -->
   <link href="img/favicon.ico" rel="icon">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+    crossorigin="anonymous">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Poppins:300,400,500,700" rel="stylesheet">
@@ -24,7 +25,11 @@
 
   <!-- Main Stylesheet File -->
   <link href="dist/styles.css" rel="stylesheet">
-  <link href="css/galeri.scss" rel="stylesheet">
+
+  <!-- ekko-lightbox -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js.map"></script>
 
 </head>
 
@@ -34,15 +39,15 @@
   <!--==========================
     Hero Section
   ============================-->
-<section id="hero">
+  <section id="hero">
 
-  <div class="container hero-container">
+    <div class="container hero-container">
       <h2 class="judul yellow-orange">The Biggest</h2>
       <h1 class="sub-judul yellow-orange typewrite"></h1>
       <br>
       <!-- <a href="#about" class="btn-teknis-daftar">@@button</a> -->
-  </div>
-</section><!-- #hero -->
+    </div>
+  </section><!-- #hero -->
 
   <main id="main">
     <partial src="lomba.html"></partial>
@@ -56,6 +61,12 @@
   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
   <!-- JavaScript Libraries -->
+  <script>
+    $(document).on('click', '[data-toggle="lightbox"]', function (event) {
+      event.preventDefault();
+      $(this).ekkoLightbox();
+    });
+  </script>
   <script src="lib/jquery/jquery.min.js"></script>
   <script src="lib/jquery/jquery-migrate.min.js"></script>
   <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
