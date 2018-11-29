@@ -49,25 +49,54 @@
     -webkit-text-fill-color: transparent;
 }
 
+/* About */
+#about-iot{
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/lomba/bg/iot.png) fixed center center;
+    background-size: cover;
+}
+
+#about-eec{
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/lomba/bg/eec.png) fixed center center;
+    background-size: cover;
+}
+
+#about-machbot{
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/lomba/bg/machbot.png) fixed center center;
+    background-size: cover;
+}
+
+#about-soccer{
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/lomba/bg/soccer.png) fixed center center;
+    background-size: cover;
+}
+
+#about-sumo{
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/lomba/bg/sumo.png) fixed center center;
+    background-size: cover;
+}
+
 /* timeline Section
 --------------------------------*/
 #timeline {
-    /* padding: 80px 0; */
+    padding: 180px 0;
 }
 
-#timeline .acara{
+#timeline .acara {
     font-size: 30px !important;
     font-weight: bold;
 }
-#timeline .tanggal{
+
+#timeline .tanggal {
     font-size: 20px !important;
 }
+
 @media (max-width: 768px) {
-    #timeline .acara{
+    #timeline .acara {
         font-size: 20px !important;
         margin-bottom: 0;
     }
-    #timeline .tanggal{
+
+    #timeline .tanggal {
         font-size: 16px !important;
     }
 }
@@ -80,6 +109,8 @@ p {
 /* Fasilitas */
 #fasilitas {
     padding: 180px 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/bg-section.png) fixed center center;
+    background-size: cover;
 }
 
 #fasilitas h2 {
@@ -103,7 +134,7 @@ p {
     text-align: center;
 }
 
-#hadiah .juara h4{
+#hadiah .juara h4 {
     margin: 5px 0;
 }
 
@@ -130,18 +161,48 @@ p {
 }
 
 /* Regis 2 */
-#regis{
+#regis-iot {
     padding: 180px 0;
     text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/lomba/bg/iot-regis.png) fixed center center;
+    background-size: cover;
 }
 
-#regis .btn-daftar {
+#regis-eec {
+    padding: 180px 0;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/lomba/bg/eec-regis.png) fixed center center;
+    background-size: cover;
+}
+
+#regis-machbot {
+    padding: 180px 0;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/lomba/bg/machbot-regis.png) fixed center center;
+    background-size: cover;
+}
+
+#regis-soccer {
+    padding: 180px 0;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/lomba/bg/soccer-regis.png) fixed center center;
+    background-size: cover;
+}
+
+#regis-sumo {
+    padding: 180px 0;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/lomba/bg/sumo-regis.png) fixed center center;
+    background-size: cover;
+}
+
+.regis .btn-daftar {
     font-family: nexa;
     text-transform: uppercase;
     font-weight: 500;
     font-size: 40px;
     letter-spacing: 1px;
-    padding:  13px 25px;
+    padding: 13px 25px;
     border-radius: 30px;
     background-size: 200% auto;
     background-image: linear-gradient(to left, #F26B35 0%, #FBB12F 50%, #F7EB23 100%);
@@ -152,12 +213,12 @@ p {
 }
 
 @media (max-width: 768px) {
-    #regis .btn-daftar {
+    .regis .btn-daftar {
         font-size: 30px;
     }
 }
 
-#regis .btn-daftar:hover {
+.regis .btn-daftar:hover {
     background-position: right center;
     transition: 0.5s;
     color: white;
