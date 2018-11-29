@@ -8,11 +8,6 @@
     position: relative;
     overflow: hidden;
     padding-top: 56.25%;
-    /* border: 5px solid #F7EB23; */
-    /* #FF7F00 */
-    /* border-radius: 30px; */
-    box-shadow: 0 0.5em 2em#111;
-    height: 151vw;
 }
 
 .resp-iframe {
