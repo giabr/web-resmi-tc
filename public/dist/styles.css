@@ -2364,3 +2364,32 @@ screen and (max-height: 300px) {
 #timeline p{
     font-size: 20px;
 }
+.isi{
+
+}
+
+.carousel-control-prev{
+    margin-top: 500px;
+    height: 75px;
+    width: 75px;
+}
+
+.carousel-control-next{
+    margin-top: 500px;
+    height: 75px;
+    width: 75px;
+}
+
+.btn-default{
+    background-color: goldenrod;
+    border-radius: 75px;
+}
+
+li.active{
+    background-color: goldenrod;
+}
+
+iframe{
+    width: 100%;
+    height: 100%;
+}
