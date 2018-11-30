@@ -3,7 +3,10 @@
           }
 
 
+#seminarnya .foto-profil{
 
+    align-content: center;
+}
 
 
 
@@ -13,12 +16,14 @@
 
     /*!-------- content detail --------*/
     #seminarnya  .content-detail {
-        font-weight: 400;
+        font-weight: 200;
         margin-top: 5px;
         margin-bottom: 35px;
         line-height: 30px;
-        font-size: 14px;
+        font-size: 20px;
         letter-spacing: 0.4px;
+        text-align: center;
+        font-family: "nexa";
       }      
     #seminarnya  .text-detail {
         margin-top: 30px;
@@ -36,7 +41,7 @@
     /*!---------- animasi kard nya -----------*/
     #seminarnya  .wrap-card {
         position: relative;
-        box-shadow: 0px 0px 0px #F26B35;
+        box-shadow: 0px 0px 0px #ffffff;
         transition: all 0.2s ease 0s;
         -webkit-transform: translateY(0px) translateX(0px);
       }
@@ -50,6 +55,7 @@
         background: #F26B35;
         -webkit-transform: scaleX(0);
         transition: all 0.2s ease;
+         z-index: 20;
       }
     #seminarnya  .wrap-card:before {
         top: 0;
@@ -71,10 +77,10 @@
         -webkit-transform: scaleX(1);
       }
     #seminarnya  .card {
-        background: #1e1e1f;
+        background: -webkit-linear-gradient(bottom, #2C140A, #B14E27);;
         padding: 30px 35px 45px 35px;
         margin-bottom: 30px;
-        border: 1px solid rgba(129, 129, 129, 0.1);
+       
       }
     #seminarnya  .card:before,
     #seminarnya  .card:after {
@@ -89,12 +95,12 @@
       }
     #seminarnya  .card:before {
         top: 0;
-        left: 0;
+        left: -2px;
         -webkit-transform-origin: 0 100%;
       }
     #seminarnya  .card:after {
         top: 0;
-        right: 0;
+        right: -2px;
         -webkit-transform-origin: 0 0;
       }
     #seminarnya  .card:hover:after,
@@ -106,19 +112,22 @@
      
     #seminarnya  p {
         letter-spacing: 0.5px;
-        font-size: 13px;
+        font-size: 16px;
         line-height: 34px;
         font-weight: 300;
+        font-family: "nexa";
+
       }
 
     #seminarnya  .nama {
-        font-size: 26px;
+        font-size: 28px;
         font-weight: 500;
         margin-bottom: 10px;
-        font-family: 'Roboto', sans-serif;
+        font-family: "nexa";
+        color: white;
       }
     #seminarnya  .job {
-        font-size: 14px;
+        font-size: 18px;
         font-weight: 500;
         line-height: 14px;
         letter-spacing: 0.4px;
@@ -126,7 +135,7 @@
         color: #cccccc;
       }
     #seminarnya  .company {
-        font-size: 12px;
+        font-size: 14px;
         line-height: 14px;
         border: 1px solid #ececec;
         color: #cccccc;
@@ -143,21 +152,21 @@
 /*!bootstrap.css*/
 
     /*! containner */
-     .container{padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}
+    #seminarnya .containerku{padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}
               @media (min-width:768px)
            {
-            .container{width:750px}
+            .containerku{width:750px}
             }
            @media (min-width:992px)
            {
-            .container{width:970px}
+            .containerku{width:970px}
             }
            @media (min-width:1200px)
            {
-            .container{width:1170px}
+            .containerku{width:1170px}
             }
 
-     .row{margin-right:-15px;margin-left:-15px}
+     .rownya{margin-right:-15px;margin-left:-15px}
 
     /*! col-md-9 col-md-3 col-md-6 col-sm-6 */
 
