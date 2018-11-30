@@ -8,15 +8,13 @@
 
 #cp {
     padding: 80px 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/bg-footer.png) fixed center center;
+    background-size: cover;
+    max-width: 100%;
 }
 
-#end {
-    background: black;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to top, rgba(186,139,2,0.6) 10%, black);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to top, rgba(186,139,2,0.6) 10%, black);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+#medpart{
+    
 }
 
 .footer_widget {
