@@ -6,15 +6,30 @@
     padding: 80px 0;
 }
 
-#cp {
-    padding: 80px 0;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/bg-footer.png) fixed center center;
-    background-size: cover;
-    max-width: 100%;
+.list-cp li {
+    display: inline-block;
+    text-align: center;
+    padding: 0 20px;
+}
+.list-sosmed li {
+    display: inline-block;
+    text-align: center;
+    padding: 0 20px;
 }
 
-#medpart{
-    
+.list-sosmed li a{
+    display: block;
+}
+
+.icon{
+    font-size: 30px;
+}
+
+#medpart {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/bg-footer.jpg) fixed center center;
+    background-size: cover;
+    max-width: 100%;
+    padding: 80px 0;
 }
 
 .footer_widget {
@@ -30,23 +45,17 @@
 
 .single_widget {
     font-family: "nexa";
-    margin-bottom: 30px;
 }
 
-.single_widget ul li {
-    margin-bottom: 10px;
-}
 
-.single_widget ul li a {
+.single_widget a {
     font-size: 14px;
-    width: 100%;
-    display: block;
     overflow: hidden;
     color: #fff;
-    line-height: 1.4rem;
+    text-align: center;
 }
 
-.single_widget ul li a:hover {
+.single_widget a:hover {
     color: #FBB12F;
 }
 
@@ -54,7 +63,16 @@
     margin-bottom: 20px;
 }
 
+.centerDiv {
+    width: 100%;
+    text-align: center;
+}
+
 /*footer section*/
+#footer{
+    padding: 80px 0;
+}
+
 .footer {
     background: #000000;
 }
