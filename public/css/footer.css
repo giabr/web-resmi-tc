@@ -13,6 +13,9 @@
     text-align: center;
     padding: 20px;
 }
+.list-sosmed{
+    padding-left: 0;
+}
 .list-sosmed li {
     display: inline-block;
     text-align: center;
@@ -45,21 +48,22 @@
     overflow: hidden;
 }
 
-.single_widget {
+.single_widget p{
     font-family: "nexa";
+    font-size: 20px;
 }
 
 
 .single_widget a {
-    font-size: 13px;
+    font-size: 15px;
     overflow: hidden;
-    color: #fff;
+    color: #FBB12F;
     text-transform: uppercase;
     text-align: center;
 }
 
 .single_widget a:hover {
-    color: #FBB12F;
+    color: white;
 }
 
 .footer_logo {
