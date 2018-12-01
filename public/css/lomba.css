@@ -1,0 +1,164 @@
+.robo {
+    padding: 50px 0;
+}
+
+.icon-lomba {
+    padding: 20px 0;
+}
+
+.judul-lomba {
+    font-family: nexa;
+    text-align: center;
+    color: #febf2c;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.p-lomba {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: nexa;
+    letter-spacing: 1px;
+}
+
+#lomba {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/bg-tc.jpg) fixed center center;
+    background-size: cover;
+    max-width: 100%;
+}
+
+#fh5co-type {
+
+    padding: 7em 0;
+
+    background-color: transparent;
+
+    background-size: cover;
+
+    background-attachment: fixed;
+
+    position: relative;
+}
+
+#fh5co-type>.fh5co-overlay {
+
+    position: absolute;
+
+    top: 0;
+
+    bottom: 0;
+
+    left: 0;
+
+    right: 0;
+
+    background: rgba(0, 0, 0, 0.7);
+
+    z-index: 9;
+}
+
+#fh5co-type>.container {
+
+    z-index: 10;
+
+    position: relative;
+}
+
+#fh5co-type .fh5co-type {
+
+    float: left;
+
+    width: 100%;
+
+    text-align: center;
+}
+
+
+#fh5co-type h3 {
+
+    margin-bottom: 10px;
+
+    color: #FBB12F;
+
+    text-align: center;
+
+}
+
+#fh5co-type h3.with-icon {
+
+    position: relative;
+    font-family: 'Nexa';
+
+    color: #FBB12F;
+
+    padding-top: 90px;
+}
+
+#fh5co-type h3.with-icon:before,
+#fh5co-type h3.with-icon::before {
+
+    content: "";
+
+    position: absolute;
+
+    left: 50%;
+    margin-left: -54px;
+
+    margin-top: -125px;
+
+    width: 104px;
+
+    height: 104px;
+
+    border: 2px solid rgba(255, 255, 255, 0.2);
+
+    -webkit-border-radius: 50%;
+
+    -moz-border-radius: 50%;
+
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+}
+
+#fh5co-type h3.with-icon.icon-eec:before,
+#fh5co-type h3.with-icon.icon-eec::before {
+    background: url(../img/lomba/eec.png) no-repeat center center;
+}
+
+#fh5co-type h3.with-icon.icon-iot:before,
+#fh5co-type h3.with-icon.icon-iot::before {
+
+    background: url(../img/lomba/iot.png) no-repeat center center;
+}
+
+#fh5co-type h3.with-icon.icon-soccer:before,
+#fh5co-type h3.with-icon.icon-soccer::before {
+
+    background: url(../images/type-3.png) no-repeat center center;
+}
+
+#fh5co-type h3.with-icon.icon-sumo:before,
+#fh5co-type h3.with-icon.icon-sumo::before {
+
+    background: url(../images/type-4.png) no-repeat center center;
+}
+
+#fh5co-type h3.with-icon.icon-mach:before,
+#fh5co-type h3.with-icon.icon-mach::before {
+
+    background: url(../images/type-4.png) no-repeat center center;
+}
+
+#fh5co-type p {
+
+    color: #FFFFFF;
+}
+
+
+.js .to-animate,
+.js .to-animate-2 {
+
+    opacity: 0;
+}

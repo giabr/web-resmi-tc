@@ -58,21 +58,25 @@
 #about-eec{
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/lomba/bg/eec.png) fixed center center;
     background-size: cover;
+    max-width: 100%;
 }
 
 #about-machbot{
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/lomba/bg/machbot.png) fixed center center;
     background-size: cover;
+    max-width: 100%;
 }
 
 #about-soccer{
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/lomba/bg/soccer.png) fixed center center;
     background-size: cover;
+    max-width: 100%;
 }
 
 #about-sumo{
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/lomba/bg/sumo.png) fixed center center;
     background-size: cover;
+    max-width: 100%;
 }
 
 /* timeline Section
@@ -111,6 +115,7 @@ p {
     padding: 180px 0;
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/bg-section.png) fixed center center;
     background-size: cover;
+    max-width: 100%;
 }
 
 #fasilitas h2 {
@@ -166,6 +171,7 @@ p {
     text-align: center;
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/lomba/bg/iot-regis.png) fixed center center;
     background-size: cover;
+    max-width: 100%;
 }
 
 #regis-eec {
@@ -173,6 +179,7 @@ p {
     text-align: center;
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/lomba/bg/eec-regis.png) fixed center center;
     background-size: cover;
+    max-width: 100%;
 }
 
 #regis-machbot {
@@ -180,6 +187,7 @@ p {
     text-align: center;
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/lomba/bg/machbot-regis.png) fixed center center;
     background-size: cover;
+    max-width: 100%;
 }
 
 #regis-soccer {
@@ -187,6 +195,7 @@ p {
     text-align: center;
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/lomba/bg/soccer-regis.png) fixed center center;
     background-size: cover;
+    max-width: 100%;
 }
 
 #regis-sumo {
@@ -194,6 +203,7 @@ p {
     text-align: center;
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/lomba/bg/sumo-regis.png) fixed center center;
     background-size: cover;
+    max-width: 100%;
 }
 
 .regis .btn-daftar {
