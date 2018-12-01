@@ -3,20 +3,32 @@
 }
 
 .icon-lomba {
-    padding: 20px 0;
+    width: auto;
+    height: 60%;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
 
 .judul-lomba {
     font-family: nexa;
-    text-align: center;
     color: #febf2c;
-    font-size: 40px;
+    font-size: 60px;
     text-transform: uppercase;
     letter-spacing: 3px;
 }
 
+.left-hand{
+    text-align: left !important;
+}
+.right-hand{
+    text-align: right !important;
+}
+
 .p-lomba {
-    text-align: center;
     color: white;
     font-size: 20px;
     font-family: nexa;

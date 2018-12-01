@@ -390,11 +390,13 @@ p {
 #map {
     padding: 80px 0;
 }
-
+.list-cp{
+    padding-left: 0;
+}
 .list-cp li {
     display: inline-block;
     text-align: center;
-    padding: 0 20px;
+    padding: 20px;
 }
 .list-sosmed li {
     display: inline-block;
@@ -434,7 +436,7 @@ p {
 
 
 .single_widget a {
-    font-size: 14px;
+    font-size: 13px;
     overflow: hidden;
     color: #fff;
     text-transform: uppercase;
@@ -1257,20 +1259,32 @@ span {
 }
 
 .icon-lomba {
-    padding: 20px 0;
+    width: auto;
+    height: 60%;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
 
 .judul-lomba {
     font-family: nexa;
-    text-align: center;
     color: #febf2c;
-    font-size: 40px;
+    font-size: 60px;
     text-transform: uppercase;
     letter-spacing: 3px;
 }
 
+.left-hand{
+    text-align: left !important;
+}
+.right-hand{
+    text-align: right !important;
+}
+
 .p-lomba {
-    text-align: center;
     color: white;
     font-size: 20px;
     font-family: nexa;
