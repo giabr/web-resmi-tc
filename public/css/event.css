@@ -50,30 +50,30 @@
 }
 
 /* About */
-#about-iot{
+#about-iot {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/lomba/bg/iot.png) fixed center center;
     background-size: cover;
 }
 
-#about-eec{
+#about-eec {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/lomba/bg/eec.png) fixed center center;
     background-size: cover;
     max-width: 100%;
 }
 
-#about-machbot{
+#about-machbot {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/lomba/bg/machbot.png) fixed center center;
     background-size: cover;
     max-width: 100%;
 }
 
-#about-soccer{
+#about-soccer {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/lomba/bg/soccer.png) fixed center center;
     background-size: cover;
     max-width: 100%;
 }
 
-#about-sumo{
+#about-sumo {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/lomba/bg/sumo.png) fixed center center;
     background-size: cover;
     max-width: 100%;
@@ -206,6 +206,25 @@ p {
     max-width: 100%;
 }
 
+.regis .float {
+    transform: translatey(0px);
+    animation: float 2s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translatey(0px);
+    }
+
+    50% {
+        transform: translatey(-20px);
+    }
+
+    100% {
+        transform: translatey(0px);
+    }
+}
+
 .regis .btn-daftar {
     font-family: nexa;
     text-transform: uppercase;
@@ -217,7 +236,6 @@ p {
     background-size: 200% auto;
     background-image: linear-gradient(to left, #F26B35 0%, #FBB12F 50%, #F7EB23 100%);
     margin: 0 25px;
-    box-shadow: 0 0.1em 0.5em rgb(43, 41, 41);
     color: black;
     width: 100px !important;
 }

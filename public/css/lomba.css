@@ -13,6 +13,25 @@
     bottom: 0;
 }
 
+.icon-lomba:hover {
+    transform: translatey(0px);
+    animation: float 2s ease-in-out infinite;
+}
+
+@keyframes icon-lomba {
+    0% {
+        transform: translatey(0px);
+    }
+
+    50% {
+        transform: translatey(-20px);
+    }
+
+    100% {
+        transform: translatey(0px);
+    }
+}
+
 .judul-lomba {
     font-family: nexa;
     color: #febf2c;
@@ -21,10 +40,11 @@
     letter-spacing: 3px;
 }
 
-.left-hand{
+.left-hand {
     text-align: left !important;
 }
-.right-hand{
+
+.right-hand {
     text-align: right !important;
 }
 
@@ -39,6 +59,32 @@
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/bg-tc.jpg) fixed center center;
     background-size: cover;
     max-width: 100%;
+}
+
+.more .more-btn {
+    font-family: nexa;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding: 13px 25px;
+    border-radius: 30px;
+    background-size: 200% auto;
+    background-image: linear-gradient(to left, #F26B35 0%, #FBB12F 50%, #F7EB23 100%);
+    color: black;
+    width: 100px !important;
+}
+
+@media (max-width: 768px) {
+    .more .more-btn {
+        font-size: 30px;
+    }
+}
+
+.more .more-btn:hover {
+    background-position: right center;
+    transition: 0.5s;
+    color: white;
 }
 
 #fh5co-type {
