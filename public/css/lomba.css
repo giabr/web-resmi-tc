@@ -39,6 +39,11 @@
     text-transform: uppercase;
     letter-spacing: 3px;
 }
+@media (max-width: 768px) {
+    .judul-lomba {
+        font-size: 40px;
+    }
+}
 
 .left-hand {
     text-align: left !important;
@@ -53,6 +58,11 @@
     font-size: 20px;
     font-family: nexa;
     letter-spacing: 1px;
+}
+@media (max-width: 768px) {
+    .p-lomba {
+        font-size: 16px;
+    }
 }
 
 #robotic {
