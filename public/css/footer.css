@@ -1,6 +1,10 @@
 #sponsor {
     padding: 80px 0;
 }
+#sponsor .bg-sp{
+    background: white;
+    padding: 30px 0;
+}
 #medpart{
     padding: 80px 0;
 }

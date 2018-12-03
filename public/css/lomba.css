@@ -1,5 +1,10 @@
 .robo {
-    padding: 50px 0;
+    padding: 80px 0;
+}
+
+.to-animate {
+    animation-duration: 2s;
+    animation-delay: 0.7s;
 }
 
 .icon-lomba {
@@ -39,6 +44,7 @@
     text-transform: uppercase;
     letter-spacing: 3px;
 }
+
 @media (max-width: 768px) {
     .judul-lomba {
         font-size: 40px;
@@ -59,6 +65,7 @@
     font-family: nexa;
     letter-spacing: 1px;
 }
+
 @media (max-width: 768px) {
     .p-lomba {
         font-size: 16px;
@@ -99,7 +106,7 @@
 
 #fh5co-type {
 
-    padding: 7em 0;
+    padding: 80px 0;
 
     background-color: transparent;
 
