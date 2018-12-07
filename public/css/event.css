@@ -113,7 +113,7 @@ p {
 /* Fasilitas */
 #fasilitas {
     padding: 180px 0;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/bg-section.png) fixed center center;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/bg-section.jpg) fixed center center;
     background-size: cover;
     max-width: 100%;
 }
