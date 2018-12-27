@@ -194,6 +194,12 @@
     -webkit-text-fill-color: transparent;
 }
 
+.black-red {
+    background: -webkit-linear-gradient(left, #000000 , #840101 5%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 /* About */
 #about-iot {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/lomba/bg/iot.png) fixed center center;
@@ -2260,4 +2266,56 @@ li.active {
     -webkit-transform: rotate(2deg);
     -o-transform: rotate(2deg);
     -ms-transform: rotate(2deg); */
+}
+
+/* comsoonsemnass */
+#manusia {
+    padding: 90px 0px 500px 0px;
+    background:#FEBF2C;
+    background-size: cover;
+    max-width: 100%;
+}
+
+#manusia h2 {
+    text-align: center;
+    color: white;
+    font-size: 35px;
+}
+
+
+.icon-manusia {
+    width: 40%;
+    height: auto;
+    position: absolute;
+    margin: auto;
+    top: 1800px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+@media (max-width: 768px) {
+    #manusia h2 {
+        font-size: 20px;
+    }
+    .icon-manusia {
+    top: 400px;
+    }
+    #manusia {
+    padding: 250px 0px 90px 0px;
+    }
+                          } 
+
+@keyframes icon-manusia {
+    0% {
+        transform: translatey(0px);
+    }
+
+    50% {
+        transform: translatey(-20px);
+    }
+
+    100% {
+        transform: translatey(0px);
+    }
 }
