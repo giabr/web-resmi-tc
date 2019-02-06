@@ -6,6 +6,10 @@
     letter-spacing: 1px;
 }
 
+.center{
+    text-align: center !important;
+}
+
 @media (max-width: 768px) {
     .p-about {
         font-size: 16px;
@@ -113,7 +117,7 @@ p {
 /* Fasilitas */
 #fasilitas {
     padding: 180px 0;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/bg-section.png) fixed center center;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/bg-section.jpg) fixed center center;
     background-size: cover;
     max-width: 100%;
 }
@@ -250,4 +254,30 @@ p {
     background-position: right center;
     transition: 0.5s;
     color: white;
+}
+
+#manusia{
+    background: #FBB12F;
+}
+#manusia .icon-manusia{
+    padding: 80px 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+#manusia .comingsoon{
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 80px; 
+    font-size: 80px;
+    letter-spacing: 3px;
+    font-family: nexa;
+    color: black;
+}
+
+@media (max-width: 768px) {
+    #manusia .comingsoon {
+        font-size: 40px;
+    }
 }
