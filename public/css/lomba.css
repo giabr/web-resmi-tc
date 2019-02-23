@@ -37,6 +37,36 @@
     }
 }
 
+.icon-seminar {
+    /* width: auto; */
+    /* height: 400px; */
+    /* position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; */
+}
+
+.icon-seminar:hover {
+    transform: translatey(0px);
+    animation: float 2s ease-in-out infinite;
+}
+
+@keyframes icon-seminar {
+    0% {
+        transform: translatey(0px);
+    }
+
+    50% {
+        transform: translatey(-20px);
+    }
+
+    100% {
+        transform: translatey(0px);
+    }
+}
+
 .judul-lomba {
     font-family: nexa;
     color: #febf2c;
@@ -80,6 +110,7 @@
 
 .more .more-btn {
     font-family: nexa;
+    margin: 0px 10px;
     text-transform: uppercase;
     font-weight: 500;
     font-size: 20px;
@@ -89,7 +120,6 @@
     background-size: 200% auto;
     background-image: linear-gradient(to left, #F26B35 0%, #FBB12F 50%, #F7EB23 100%);
     color: black;
-    width: 100px !important;
 }
 
 @media (max-width: 768px) {
